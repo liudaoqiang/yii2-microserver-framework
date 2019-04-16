@@ -1,0 +1,30 @@
+{
+  "name": "汉广集团用户中心接口文档",
+  "version": "0.1.0",
+  "description": "这里描述了所有汉广集团用户中心提供的API，任何的API访问请参考这里的内容",
+  "title": "汉广集团GSP接口文档",
+  "url" : "https://api.user.dev.chinahanguang.com",
+  "header": {
+    "title": "简介",
+    "filename": "header.md"
+  },
+  "template": {
+    "withCompare": false
+  },
+  "order": [
+    "purchase",
+    "purchaseRefund",
+    "sales",
+    "salesRefund",
+    "quality",
+    "wmsReceiveGoodSheet",
+    "WmsReviewSheet",
+    "wmsInSheet",
+    "wmsOutSheet",
+    "wmsStock",
+    "goods",
+    "enterprise",
+    "wms",
+    "logistics"
+  ]
+}

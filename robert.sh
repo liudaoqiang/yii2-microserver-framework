@@ -1,0 +1,25 @@
+
+# 在自动生成代码时, 尽量用common的model来生成crud, 因为common是自动生成的model
+
+./yii gii/crud  --modelClass='common\models\UserExtInfo' --controllerClass='backend\controllers\UserExtInfoController' --viewPath='backend\views\user-ext-info'
+./yii gii/crud  --modelClass='common\models\BaseInfo' --controllerClass='backend\controllers\BaseInfoController' --viewPath='backend\views\base-info'
+./yii gii/crud  --modelClass='common\models\BaseWorkerInfo' --controllerClass='backend\controllers\BaseWorkerInfoController' --viewPath='backend\views\base-worker-info'
+./yii gii/crud  --modelClass='common\models\BaseAreaInfo' --controllerClass='backend\controllers\BaseAreaInfoController' --viewPath='backend\views\base-area-info'
+./yii gii/crud  --modelClass='common\models\BaseMachineInfo' --controllerClass='backend\controllers\BaseMachineInfoController' --viewPath='backend\views\base-machine-info'
+./yii gii/crud  --modelClass='common\models\HerbInfo' --controllerClass='backend\controllers\HerbInfoController' --viewPath='backend\views\herb-info'
+./yii gii/crud  --modelClass='common\models\ProviderInfo' --controllerClass='backend\controllers\ProviderInfoController' --viewPath='backend\views\provider-info'
+./yii gii/crud  --modelClass='common\models\ProcessTechStepInfo' --controllerClass='backend\controllers\ProcessTechStepInfoController' --viewPath='backend\views\process-tech-step-info'
+./yii gii/crud  --modelClass='common\models\ProcessTechInfo' --controllerClass='backend\controllers\ProcessTechInfoController' --viewPath='backend\views\process-tech-info'
+./yii gii/crud  --modelClass='common\models\ProcessDataUnhandled' --controllerClass='backend\controllers\ProcessDataUnhandledController' --viewPath='backend\views\process-data-unhandled'
+./yii gii/crud  --modelClass='common\models\ProcessDataHandling' --controllerClass='backend\controllers\ProcessDataHandlingController' --viewPath='backend\views\process-data-handling'
+./yii gii/crud  --modelClass='common\models\ProcessDataHandled' --controllerClass='backend\controllers\ProcessDataHandledController' --viewPath='backend\views\process-data-handled'
+./yii gii/crud  --modelClass='common\models\ProcessDataSlicing' --controllerClass='backend\controllers\ProcessDataSlicingController' --viewPath='backend\views\process-data-slicing'
+./yii gii/crud  --modelClass='common\models\ProcessDataMachineDrying' --controllerClass='backend\controllers\ProcessDataMachineDryingController' --viewPath='backend\views\process-data-machine-drying'
+./yii gii/crud  --modelClass='common\models\ProcessDataPacking' --controllerClass='backend\controllers\ProcessDataPackingController' --viewPath='backend\views\process-data-packing'
+./yii gii/crud  --modelClass='common\models\ProcessDataSifting' --controllerClass='backend\controllers\ProcessDataSiftingController' --viewPath='backend\views\process-data-sifting'
+./yii gii/crud  --modelClass='common\models\ProcessDataWashing' --controllerClass='backend\controllers\ProcessDataWashingController' --viewPath='backend\views\process-data-washing'
+./yii gii/crud  --modelClass='common\models\ProcessDataBoiling' --controllerClass='backend\controllers\ProcessDataBoilingController' --viewPath='backend\views\process-data-boiling'
+./yii gii/crud  --modelClass='common\models\ProcessDataCooling' --controllerClass='backend\controllers\ProcessDataCoolingController' --viewPath='backend\views\process-data-cooling'
+./yii gii/crud  --modelClass='common\models\ProcessDataPeeling' --controllerClass='backend\controllers\ProcessDataPeelingController' --viewPath='backend\views\process-data-peeling'
+./yii gii/crud  --modelClass='common\models\ProcessDataAirDrying' --controllerClass='backend\controllers\ProcessDataAirDryingController' --viewPath='backend\views\process-data-air-drying'
+

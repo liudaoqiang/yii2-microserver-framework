@@ -1,0 +1,17 @@
+
+# 在自动生成代码时, 尽量用common的model来生成crud, 因为common是自动生成的model
+echo 'yes'|./yii gii/model --tableName='u_auth' --modelClass='Auth' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_company' --modelClass='Company' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_department' --modelClass='Department' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_platform' --modelClass='Platform' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_platform_token' --modelClass='PlatformToken' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_platform_wx_smallapp' --modelClass='PlatformWxSmallapp' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_role' --modelClass='Role' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_role_auth' --modelClass='RoleAuth' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user' --modelClass='User' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user_auth' --modelClass='UserAuth' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user_department_relation' --modelClass='UserDepartmentRelation' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user_ext' --modelClass='UserExt' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user_platform_relation' --modelClass='UserPlatformRelation' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user_role' --modelClass='UserRole' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'
+echo 'yes'|./yii gii/model --tableName='u_user_token' --modelClass='UserToken' --ns='\common\models' --baseClass='\common\models\Base' --overwrite='1' --interactive=0 --useTablePrefix='1' --generateLabelsFromComments='1'

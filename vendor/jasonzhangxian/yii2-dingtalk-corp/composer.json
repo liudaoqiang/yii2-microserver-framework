@@ -1,0 +1,24 @@
+{
+    "name": "jasonzhangxian/yii2-dingtalk-corp",
+    "description": "dingtalk API for yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","dingding","dingtalk"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "张雪冬",
+            "email": "zhangxuedong@new7.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "nategood/httpful": "*",
+        "alexandernst/yii2-device-detect": "0.0.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "jasonzhangxian\\dingtalk\\": ""
+        },
+        "classmap" : ["widgets/"]
+    }
+}
